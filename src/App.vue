@@ -4,20 +4,23 @@
             color="rgb(29,32,48)"
             dark
     >
-      <Icon v-on:click="insta" icon="mdi:instagram" color="white" style="font-size: 24px;" />
-      <v-toolbar-title class="titleText" v-on:click="insta">NOMAtoNOMA</v-toolbar-title>
-      <v-divider inset vertical></v-divider>
-      <v-spacer></v-spacer>
-      <Icon v-on:click="instaStrava" icon="mdi:strava" color="white" style="font-size: 24px;" />
-      <v-toolbar-title class="titleText" v-on:click="instaStrava">NOMAtoNOMA</v-toolbar-title>
+      <Icon  v-on:click="insta"  class="hidden-md-and-up titleText" icon="mdi:instagram" color="white" style="font-size: 24px;" />
+      <v-toolbar-title class="hidden-sm-and-up titleText" v-on:click="insta">NOMAtoNOMA</v-toolbar-title>
+      <Icon v-on:click="insta"  class="hidden-sm-and-down titleText" icon="mdi:instagram" color="white" style="font-size: 24px;" />
+      <v-toolbar-title class="hidden-sm-and-down titleText" v-on:click="insta">NOMAtoNOMA</v-toolbar-title>
+      <v-spacer class="hidden-sm-and-down titleText"></v-spacer>
+      <Icon class="hidden-sm-and-down titleText" v-on:click="instaStrava" icon="mdi:strava" color="white" style="font-size: 24px;" />
+      <v-toolbar-title class="hidden-sm-and-down titleText" v-on:click="instaStrava">NOMAtoNOMA</v-toolbar-title>
     </v-app-bar>
     <v-main>
       <div style="position: relative; z-index: 9999; background-color: #fff;">
         <v-parallax
           dark
+          
           src="./assets/noma2019_17.jpg"
         >
           <v-row
+          height="100%"
             align="center"
             justify="center"
           >
@@ -46,76 +49,60 @@
         >
           <v-col
             class="text-center"
-            cols="6"
+            cols="11"
           >
             <h1 style="color: white;font-size: 46px;"  class="justText mb-4">
               The Route
             </h1>
-            
-              <v-row no-gutters >
-                <v-col
-                  v-for="blob in route"
-                  :key="blob"
-                  cols="12"
-                  sm="4"
-                  class="stuff"
-                  
-                >
-                  <p style="color: white;">
-                    {{blob.info}}
-                  </p>
-                </v-col>
-              </v-row>
-            
             <p class='justText' style="color: white;" >
-              This unsupported, adventure ride around Lake Pontchartrain, starts and ends just behind City Park's New Orleans Museum of Art.<br>
+              This 150 mile one-day ride around Lake Pontchartrain, starts and ends just behind City Park's New Orleans Museum of Art.<br>
               <br>
-              Heading East, the group circles the Lake counter-clockwise. Flag drops on Chef Menteur Hwy at the stoplight of Michoud Blvd. This year's ride will contain 6 mandatory stops, 5 of which will be completely unmanned. First is the Rigolet's Bait Shop with a left on Old Spanish Trail/433 immediately after. Second, the Tammany Trace Tunnel, where riders will be turning on to Florida St/Hwy 190. After a long stay on Hwy 22, riders will stop at the ONLY supported checkpoint in Ponchatoula presented by Palmares Cycling.<br>
+              Heading East, the ride circles the Lake counter-clockwise. Flag drops on Chef Menteur Hwy at Michoud Blvd. This year's ride contains 6 mandatory stops, 5 of which will be completely unsupported.<br>
               <br>
-              After this "halfway" point riders will continue down the longest and most taxing portion of the NOMA route, Old Hwy 51. Hwy 51 will take riders South, almost all the way to the Mississippi River, parrallel to Interstate 55.<br>
+              Take Old Spanish Trail/433 to Florida St/190 to Hwy 22 on the way to the ONLY supported checkpoint in Ponchatoula presented by Palmares Cycling.<br>
               <br>
-              The fourth mandatory stop, Montz Park, is intentionally on the West side of the Bonne Carre Spillway. Riding or walking across the Spillway is mandatory. Unlike previous years, riders will not be allowed to use Airline Hwy on their way back to New Orleans. This stop is the first of 3 checkpoints along the Mississippi River Trail.<br>
-              <br>
-              The fifth and sixth checkpoints are under the two bridges along the Mississippi River. First, the Hale Boggs Memorial Bridge in Luling, LA, and second, the Huey P Long Bridge near Elmwood.
+              After the stop, it’s Old 51 down to, and through the Bonne Carre Spillway, then take the Mississippi River Trail back toward New Orleans and back to NOMA.<br>
             </p>
           </v-col>
         </v-row>
       </div>
       <div style="position: relative; z-index: 9999;">
-    
-          <v-parallax
-            dark
-            src="./assets/noma2019_05.jpg"
-          >
-          <v-row
-          align="center"
-              justify="center">
-        <v-col align="center" sm="6">
-                <h4 style="font-size: 46px;" class="justText">
+        <v-parallax
+          dark
+          height="100%"
+          src="./assets/noma2019_05.jpg"
+        >
+            <v-row
+            class="mb-10"
+            align="center"
+            justify="center">
+              <v-col
+                cols="12"
+                sm="12"
+              > 
+                <h4 align="center"
+                  justify="center" style="font-size: 46px;" class="mt-13 justText">
                   The JC Monti Memorial 150
                 </h4>
-          <v-row style="padding-top: 10px;" no-gutters>
-            <v-col
-              cols="8"
-              sm="6"
-              style="padding-right: 10px;"
-            >
+              </v-col>
+              <v-col
+                cols="6"
+                md="6"
+              >
+              <v-img    aspect-ratio="1" src="./assets/JCM.jpg"></v-img>
+              </v-col>
+              <v-col
+                cols="12"
+                md="6"
+                align="center"
+            justify="center"
+              >
                 <p class='justText'>
-                  John-Carlo Monti came up in the New Orleans bike scene as a talented up-and-coming photographer and film maker. JC passed shortly after the first edition of NOMA to NOMA in 2019, where he took part as our lone race photographer. Riding alongside our race director and enduring the long day on the road, JC managed to find a unique perspective, and truly captured the spirit of this race. His passion for film and photography was only matched by his smile and charm.
-                </p>
-            </v-col>
-            <v-col
-              cols="4"
-              sm="6"
-              style="padding-left: 10px;"
-            >
-              <v-img  max-height="100%" aspect-ratio="1" src="./assets/JCM.jpg"></v-img>
-            </v-col>
-          </v-row>
-        </v-col>
-      </v-row>
-          </v-parallax>
-     
+                      John-Carlo Monti came up in the New Orleans bike scene as a talented up-and-coming photographer and film maker. JC passed shortly after the first edition of NOMA to NOMA in 2019, where he took part as our lone race photographer. Riding alongside our race director and enduring the long day on the road, JC managed to find a unique perspective, and truly captured the spirit of this race. His passion for film and photography was only matched by his smile and charm.
+                    </p>
+              </v-col>
+            </v-row >
+        </v-parallax>
       </div>
       <div style="background-color: rgb(202,75,69); height: 22vh;">
         <v-row

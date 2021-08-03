@@ -23,12 +23,12 @@
           >
             <v-col
               class="text-center"
-              cols="12"
+              sm="12"
             >
-              <h1 class="titleText text-h4  mb-2">
+              <h1 style="font-size: 86px;" class="titleText   mb-2">
                 NOMA To NOMA
               </h1>
-              <h4 class="justText">
+              <h4 style="font-size: 46px;" class="justText">
                 the Race Around the Lake
               </h4>
               <h4 lass="justText">
@@ -48,7 +48,7 @@
             class="text-center"
             cols="6"
           >
-            <h1 style="color: white;" class="text-h4 titleText mb-4" color="white">
+            <h1 style="color: white;font-size: 46px;"  class="justText mb-4">
               The Route
             </h1>
             
@@ -68,20 +68,20 @@
               </v-row>
             
             <p class='justText' style="color: white;" >
-              This unsupported, adventure ride around Lake Pontchartrain, starts and ends just behind City Park's New Orleans Museum of Art.
-
-              Heading East, the group circles the Lake counter-clockwise. Flag drops on Chef Menteur Hwy at the stoplight of Michoud Blvd. This year's ride will contain 6 mandatory stops, 5 of which will be completely unmanned. First is the Rigolet's Bait Shop with a left on Old Spanish Trail/433 immediately after. Second, the Tammany Trace Tunnel, where riders will be turning on to Florida St/Hwy 190. After a long stay on Hwy 22, riders will stop at the ONLY supported checkpoint in Ponchatoula presented by Palmares Cycling.
-
-              After this "halfway" point riders will continue down the longest and most taxing portion of the NOMA route, Old Hwy 51. Hwy 51 will take riders South, almost all the way to the Mississippi River, parrallel to Interstate 55.
-
-              The fourth mandatory stop, Montz Park, is intentionally on the West side of the Bonne Carre Spillway. Riding or walking across the Spillway is mandatory. Unlike previous years, riders will not be allowed to use Airline Hwy on their way back to New Orleans. This stop is the first of 3 checkpoints along the Mississippi River Trail.
-
+              This unsupported, adventure ride around Lake Pontchartrain, starts and ends just behind City Park's New Orleans Museum of Art.<br>
+              <br>
+              Heading East, the group circles the Lake counter-clockwise. Flag drops on Chef Menteur Hwy at the stoplight of Michoud Blvd. This year's ride will contain 6 mandatory stops, 5 of which will be completely unmanned. First is the Rigolet's Bait Shop with a left on Old Spanish Trail/433 immediately after. Second, the Tammany Trace Tunnel, where riders will be turning on to Florida St/Hwy 190. After a long stay on Hwy 22, riders will stop at the ONLY supported checkpoint in Ponchatoula presented by Palmares Cycling.<br>
+              <br>
+              After this "halfway" point riders will continue down the longest and most taxing portion of the NOMA route, Old Hwy 51. Hwy 51 will take riders South, almost all the way to the Mississippi River, parrallel to Interstate 55.<br>
+              <br>
+              The fourth mandatory stop, Montz Park, is intentionally on the West side of the Bonne Carre Spillway. Riding or walking across the Spillway is mandatory. Unlike previous years, riders will not be allowed to use Airline Hwy on their way back to New Orleans. This stop is the first of 3 checkpoints along the Mississippi River Trail.<br>
+              <br>
               The fifth and sixth checkpoints are under the two bridges along the Mississippi River. First, the Hale Boggs Memorial Bridge in Luling, LA, and second, the Huey P Long Bridge near Elmwood.
             </p>
           </v-col>
         </v-row>
       </div>
-      <div style="position: relative; z-index: 9999; ;">
+      <div style="position: relative; z-index: 9999;">
     
           <v-parallax
             dark
@@ -91,11 +91,8 @@
           align="center"
               justify="center">
         <v-col align="center" sm="6">
-          <h1 class="text-h4 titleText mb-4">
-                  FOR JOHN-CARLO
-                </h1>
-                <h4 class="subheading">
-                  The JC Monti Memorial Gran Fondo
+                <h4 style="font-size: 46px;" class="justText">
+                  The JC Monti Memorial 150
                 </h4>
           <v-row style="padding-top: 10px;" no-gutters>
             <v-col
@@ -104,7 +101,7 @@
               style="padding-right: 10px;"
             >
                 <p class='justText'>
-                  John-Carlo Monti came up in the New Orleans bike scene as a talented up-and-coming photographer and film maker. As a club co-founder, he used NOLA Fixed riders often as subjects. JC passed shortly after the first edition of NOMA to NOMA in 2019, where he took part as our lone race photographer. Riding alongside our race director and enduring the long day on the road, JC managed to find a unique perspective, and truly captured the spirit of this race. His passion for film and photography was only matched by his smile and charm. We miss you, JC.
+                  John-Carlo Monti came up in the New Orleans bike scene as a talented up-and-coming photographer and film maker. JC passed shortly after the first edition of NOMA to NOMA in 2019, where he took part as our lone race photographer. Riding alongside our race director and enduring the long day on the road, JC managed to find a unique perspective, and truly captured the spirit of this race. His passion for film and photography was only matched by his smile and charm.
                 </p>
             </v-col>
             <v-col
@@ -129,7 +126,7 @@
             class="text-center"
             cols="12"
           >
-          <h1 class="text-h4 titleText mb-4 tiktok" >
+          <h1 h4 style="color: white; font-size: 46px;" class="justText" >
               Coming Soon!
             </h1>
               <div>
@@ -160,7 +157,7 @@ import  Countdown  from 'vuejs-countdown'
         window.open("https://www.instagram.com/nomatonoma/", "_blank");  
       },
       instaStrava () {  
-        window.open("https://www.instagram.com/p/CQtb5qVl9Tp/", "_blank");  
+        window.open("https://www.strava.com/routes/2844283895391826238?fbclid=IwAR3GkOx-0SBLZ4F9v8eSDShmawdonIxdLUKtI3FpAxvQPPJfCqcaBjoPHP4", "_blank");  
       },
       startCallBack: function(x) {
         console.log(x);
@@ -180,18 +177,19 @@ import  Countdown  from 'vuejs-countdown'
   }
 </script>
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 .stuff {
     padding-bottom: 5px;
     border-top: 1px solid white !important;
     border-left: 1px solid white !important
 }
 .justText{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Righteous', sans-serif;
+  font-size: 18px
 }
 .titleText{
-  font-family: 'Lato', sans-serif;
+  font-family: 'Righteous', sans-serif;
 }
 .tiktok {
   color: white;

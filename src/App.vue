@@ -29,19 +29,62 @@
               sm="12"
             >
               <h1 style="font-size: 86px;" class="titleText   mb-2">
-                NOMA To NOMA
+                NOMA to NOMA
               </h1>
               <h4 style="font-size: 46px;" class="justText">
                 the Race Around the Lake
               </h4>
-              <h4 lass="justText">
+              <h4 class="justText">
                 October 3rd, 2021 - New Orleans, LA
               </h4>
             </v-col>
           </v-row>
         </v-parallax>
       </div>
-      <div style="background-color: rgb(29,32,48); height: 5vh;"/>
+      <div style="background-color: rgb(29,32,48); height: 5vh;">
+        <v-app-bar
+            color="rgb(29,32,48)"
+            dark
+          >
+            <v-btn
+                    color="warning"
+                    v-on:click="bikeReg"
+                    class="hidden-sm-and-up titleText mr-2" 
+                  >
+                  Sign Up!
+                  </v-btn>
+            <v-btn
+                    color="secondary"
+                    dark
+                    v-on:click="usac"
+                    class="hidden-sm-and-up titleText" 
+                  >
+                  free one day license.
+            </v-btn>
+      <!-- <v-toolbar-title class="hidden-sm-and-up titleTextmr-2" v-on:click="bikeReg">Sign Up!</v-toolbar-title>
+      <v-toolbar-title class="hidden-sm-and-up titleText" v-on:click="bikeReg">free one day license</v-toolbar-title> -->
+            <v-btn
+                    color="warning"
+                    v-on:click="bikeReg"
+                    class="hidden-sm-and-down titleText mr-2" 
+                  >
+                  Sign Up!
+                  </v-btn>
+            <v-btn
+                    color="secondary"
+                    dark
+                    v-on:click="usac"
+                    class="hidden-sm-and-down titleText" 
+                  >
+                  free one day license.
+            </v-btn>
+      <!-- <v-toolbar-title class="hidden-sm-and-down titleText mr-2" v-on:click="bikeReg">Sign Up!</v-toolbar-title>
+      <v-toolbar-title class="hidden-sm-and-down titleText" v-on:click="bikeReg">free one day license.</v-toolbar-title> -->
+      <!-- <v-spacer class="hidden-sm-and-down titleText"></v-spacer>
+      <Icon class="hidden-sm-and-down titleText" v-on:click="instaStrava" icon="mdi:strava" color="white" style="font-size: 24px;" />
+      <v-toolbar-title class="hidden-sm-and-down titleText" v-on:click="instaStrava">NOMAtoNOMA</v-toolbar-title> -->
+    </v-app-bar>
+      </div>
       <div style="background-color: rgb(202,75,69); height: 60h;">
         <v-row
           align="center"
@@ -142,6 +185,12 @@ import  Countdown  from 'vuejs-countdown'
       methods: {
       insta () {  
         window.open("https://www.instagram.com/nomatonoma/", "_blank");  
+      },
+      bikeReg () {  
+        window.open("https://www.bikereg.com/nomatonoma?fbclid=IwAR2mqeZEvr8AklJWy7iJPUxyQ5iEubaSphhrCdgslDVvVnks0MKQz-iYhuo", "_blank");  
+      },
+      usac () {  
+        window.open("https://membership.usacycling.org/one-day/6377", "_blank");  
       },
       instaStrava () {  
         window.open("https://www.strava.com/routes/2844283895391826238?fbclid=IwAR3GkOx-0SBLZ4F9v8eSDShmawdonIxdLUKtI3FpAxvQPPJfCqcaBjoPHP4", "_blank");  

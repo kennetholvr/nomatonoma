@@ -94,17 +94,19 @@
             class="text-center"
             cols="11"
           >
-            <h1 style="color: white;font-size: 46px;"  class="justText mb-4">
+            <h1 style="color: white; font-size: 46px;"  class="justText mb-4">
               The Route
             </h1>
             <p class='justText' style="color: white;" >
-              This 150 mile one-day ride around Lake Pontchartrain, starts and ends just behind City Park's New Orleans Museum of Art.<br>
+              NOMA to NOMA will start with a neutral rollout to Chef Mentor/Hwy 90 and continue until the pack arrives at Michoud Blvd, where the flag drops and riders are allowed to set their desired pace. This year's ride contains 7 stops, 3 of which will be completely unsupported. The first checkpoint, Rigolets Bait & Seafood, will have water, but riders are NOT REQUIRED TO STOP.<br>
               <br>
-              Heading East, the ride circles the Lake counter-clockwise. Flag drops on Chef Menteur Hwy at Michoud Blvd. This year's ride contains 6 mandatory stops, 5 of which will be completely unsupported.<br>
+              Next, take a left on Old Spanish Trail/LA Hwy 433, then either the Tammany Trace or U.S. Route 190 to the Mandeville Trailhead along the Tammany Trace for stop #2, the first unattended stop. Riders will be REQUIRED to stop, locate the hanging hole-punch, and punch the appropriate spot on their Brevet d’Gorman card.<br>
               <br>
-              Take Old Spanish Trail/433 to Florida St/190 to Hwy 22 on the way to the ONLY supported checkpoint in Ponchatoula presented by Palmares Cycling.<br>
+              Take Florida St/U.S Route 190 to LA Hwy 22 on the way to the checkpoint #3 in Ponchatoula at the corner of Hwy 22 & Hwy 51 near the Train. This is the first FULLY SUPPORTED STOP and is presented by Palmarès Cycling. There will be water, nutrition, and emergency mechanic services if needed. Riders are NOT REQUIRED to stop, however note that many shops and stores along Hwy 51 and in the LaPlace area have been closed. <br>
               <br>
-              After the stop, it’s Old 51 down to, and through the Bonne Carre Spillway, then take the Mississippi River Trail back toward New Orleans and back to NOMA.<br>
+              Stop #5 is located at the gazebo on River Rd. on the East side of the Bonne Carré Spillway. Here riders will, again, locate and use the hole-punch. Riders will then take the Mississippi River Trail to unsupported stop #6, the Hale Boggs Bridge in Luling. Another hole-punch will be under the Luling Bridge, located on a “Bicycle Path” street sign along Mississippi River Trail. <br>
+              <br>
+              The last stop will be fully supported, and located under the Huey P. Bridge. There will be water, nutrition, beer and emergency bike needs available. After that, head home to the New Orleans Museum of Art, where the Finish Line will be located behind NOMA on the Roosevelt Mall by Tad Gormley stadium.<br>
             </p>
           </v-col>
         </v-row>

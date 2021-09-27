@@ -159,7 +159,7 @@
             cols="12"
           >
           <h1 h4 style="color: white; font-size: 46px;" class="justText" >
-              Coming Soon!
+              Stsrting Soon!
             </h1>
               <div>
               <Countdown  end="October 03, 2021"></Countdown>

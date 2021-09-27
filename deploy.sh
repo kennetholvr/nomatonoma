@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+!/usr/bin/env sh
 # abort on errors
 set -e
 # build
@@ -6,7 +6,7 @@ yarn run build
 # navigate into the build output directory
 cd dist
 # if you are deploying to a custom domain
-echo 'nomatonoma.com' > CNAME
+# echo 'nomatonoma.com' > CNAME
 git init
 git add -A
 git commit -m 'deploy'

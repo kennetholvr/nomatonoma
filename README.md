@@ -1,4 +1,5 @@
 # nomatonoma
+site can be viewed at https://nomatonoma.com/
 
 ## Project setup
 ```
